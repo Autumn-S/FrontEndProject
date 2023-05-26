@@ -1,0 +1,163 @@
+body{
+    background-image: url('3666124.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Playfair Display', serif;
+} 
+
+.main-body.fish {
+    background-image: url('ACinspiredocean theme.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: repeat;
+}
+  
+.main-body.bugs {
+    background-image: url('ACinspiredbugtheme.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.main-body.sea {
+    background-image: url('https://2minutetabletop.com/wp-content/uploads/2019/04/Ocean-sea-water-tile-texture-map-assets-tropical.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#searchbar{
+    display: flex;
+    margin-top: 5px;
+    height: 36px;
+    border-radius: 2rem;
+    justify-content: center;
+    background-color: rgb(210, 172, 120, 0.5);
+}
+
+h1{
+    color:rgb(140,83,83);
+    margin: 2px;
+    text-shadow: .5px .5px #3f352a;
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+input{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    border-radius: 2rem;
+    
+}
+
+#categorySelect{
+    width: 132px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    margin-right: 6px;
+    background-color: transparent;
+    border-radius: 2rem;
+}
+
+label{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: small;
+}
+
+button#searchButton{
+    margin: 6px;
+    background-color: transparent;
+    border-radius: 2rem;
+}
+
+button#displayListsButton{
+    margin: 6px;
+    background-color: transparent;
+    border-radius: 2rem;
+}
+
+#listcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul{
+    padding-left: 8px;
+}
+
+#caughtList{
+    background-color: rgb(210, 172, 120, 0.5);
+    margin: 1rem;
+    padding: 8px;
+    border-radius: 2rem;
+    text-align: center; 
+}
+
+#donationList{
+    background-color: rgb(210, 172, 120, 0.5);
+    margin: 1rem;
+    padding: 8px;
+    border-radius: 2rem;
+    text-align: center; 
+}
+
+
+#resultContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item {
+    padding: 5px;
+    margin: 5px;
+    text-align: center; 
+    border: inset 1rem;
+  }
+
+  .item.fish {
+    background:linear-gradient(0deg, #b9deed, #efefef);
+    border-color: rgb(51, 108, 118);
+    width: 320px;
+    height: 300px;
+  }
+  
+  .item.fish img {
+    width: 100%;  
+  }
+
+  .item.bugs {
+    background: linear-gradient(0deg,rgba(113,179,143,1) 0%, rgba(212,231,207,1) 100%);
+    border-color: rgb(62, 113, 85);
+    width: 320px;
+    height: 410px;
+}
+ 
+  .item.bugs img { 
+    width: 100%; 
+    height: 18rem;  
+  }
+
+  .item.sea {
+    background: linear-gradient(180deg, #9dc7d2 0%, #5daab9 74%);
+    border-color: #416f70;
+    width: 320px;
+    height: 410px;
+  }
+
+  .item.sea img {
+    width: 100%; 
+    height: 18rem; 
+  }

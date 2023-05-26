@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script defer src="javascript/app.js"></script>
-    <title>Document</title>
+    <title>Animal Crossing Critterpedia</title>
 </head>
-<body>
-    
+<body class="main-body">
+    <div id="searchbar">
+        <h1>Animal Crossing Critterpedia</h1>
+        <input type="text" id="searchBar" placeholder="Enter name of critter">
+        <select id="categorySelect">
+            <option value="">Select a category</option>
+            <option value="fish">Fish</option>
+            <option value="bugs">Bugs</option>
+            <option value="sea">Sea Creatures</option>
+        </select>
+        <label>
+        Northern Hemisphere <input type="radio" name="hemisphere" value="northern" checked>
+        </label>
+        <label>
+        Southern Hemisphere <input type="radio" name="hemisphere" value="southern">
+        </label>
+        <button id="searchButton">Search</button>
+            <button id="displayListsButton">Display Saved Lists</button>
+        </div>
+        <div id="listcontainer">
+        <div id="caughtList" class="list-container"></div>
+        <div id="donationList" class="list-container"></div>
+        </div>
+    <div>
+        <div id="resultContainer"></div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

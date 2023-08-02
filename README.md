@@ -1,12 +1,14 @@
-# Animal Crossing New Horizons Search Application
-![Main-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/336feea6-f145-4297-876f-25f0eab73b3f)
+## Animal Crossing New Horizons Search Application ##
 
 This is a search application for Animal Crossing New Horizons, a popular video game. The application allows users to search for fish, bugs, and sea creatures available in the game and provides information such as availability, time of day, and sell prices. The application retrieves data from the ACNH API to populate the search results.
-Features
+
+![Main-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/336feea6-f145-4297-876f-25f0eab73b3f)
 ![Items1-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/7baf97be-7ad5-4297-8f1b-cffae3a1ff63)
 ![Items2-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/ad01f06d-eac8-4909-ab4c-2851d47cef7b)
 ![Items3-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/e03a5e46-0ca3-4d3b-995e-4ee3292896bc)
 
+
+## Features ##
     Search for items based on category and keywords.
     View search results with detailed information including availability, time of day, and sell prices.
     Mark items as caught and track the caught list.
@@ -14,7 +16,7 @@ Features
     Persistent storage of caught and donation lists using local storage.
     Responsive design for a seamless user experience across devices.
 
-ACNH API
+## ACNH API ##
 
 This application retrieves data from the ACNH API (http://acnhapi.com/) to provide information about the items in Animal Crossing New Horizons. The API offers various endpoints for different categories such as fish, bugs, and sea creatures. It provides detailed information about each item, including names, images, availability, and prices.
 How to Run
@@ -22,7 +24,7 @@ How to Run
     Clone the repository or download the source code.
     Open the index.html file in a web browser.
 
-Usage
+## Usage ##
 
     Select the category (fish, bugs, or sea creatures) from the dropdown menu.
     Enter keywords in the search bar to filter the items.
@@ -34,7 +36,7 @@ Usage
     The caught and donation lists will be displayed on the page.
     The caught and donation lists are stored locally and will persist across page reloads.
 
-Customization
+## Customization ##
 
 The application can be customized and extended in various ways:
 
@@ -42,7 +44,7 @@ The application can be customized and extended in various ways:
     Modify the styling and layout in the HTML and CSS files to match your desired design.
     Implement additional features such as sorting, filtering, or sharing functionality.
 
-Dependencies
+## Dependencies ##
 
 This application does not have any external dependencies. It uses vanilla JavaScript, HTML, and CSS. The ACNH API is used to retrieve data.
 

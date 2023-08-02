@@ -1,7 +1,11 @@
 # Animal Crossing New Horizons Search Application
+![Main-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/336feea6-f145-4297-876f-25f0eab73b3f)
 
 This is a search application for Animal Crossing New Horizons, a popular video game. The application allows users to search for fish, bugs, and sea creatures available in the game and provides information such as availability, time of day, and sell prices. The application retrieves data from the ACNH API to populate the search results.
 Features
+![Items1-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/7baf97be-7ad5-4297-8f1b-cffae3a1ff63)
+![Items2-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/ad01f06d-eac8-4909-ab4c-2851d47cef7b)
+![Items3-Screenshot](https://github.com/Autumn-S/FrontEndProject/assets/130795003/e03a5e46-0ca3-4d3b-995e-4ee3292896bc)
 
     Search for items based on category and keywords.
     View search results with detailed information including availability, time of day, and sell prices.
